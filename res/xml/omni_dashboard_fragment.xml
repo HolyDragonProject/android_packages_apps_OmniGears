@@ -65,8 +65,12 @@
     <Preference
         android:key="event_service_settings"
         android:title="@string/event_service_settings_title"
-        android:icon="@drawable/ic_settings_event_service"
-        android:fragment="org.omnirom.omnigears.service.EventServiceSettings" />
+        android:icon="@drawable/ic_settings_event_service">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="org.omnirom.omnibrain"
+            android:targetClass="org.omnirom.omnibrain.OmniBrainActivity" />
+    </Preference>
 
     <!--<Preference
         android:key="weather_service_settings"

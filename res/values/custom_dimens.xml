@@ -22,6 +22,4 @@
     <dimen name="color_preference_height">18dip</dimen>
     <dimen name="drag_grip_ridge_size">6dp</dimen>
     <dimen name="drag_grip_ridge_gap">4dp</dimen>
-    <dimen name="floating_widget_view_padding">10dp</dimen>
-    <dimen name="floating_widget_window_padding">10dp</dimen>
 </resources>
