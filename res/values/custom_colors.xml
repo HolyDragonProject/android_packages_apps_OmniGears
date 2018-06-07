@@ -17,4 +17,12 @@
 
 <resources>
     <color name="system_activity_header_text">#000000</color>
+    <color name="omni_clock_primary">#607D8B</color>
+    <color name="omni_clock_accent">#FF3D00</color>
+    <color name="omni_clock_bg_color">#21282b</color>
+    <color name="omni_clock_hour_hand_color">#ffffff</color>
+    <color name="omni_clock_minute_hand_color">#28abe3</color>
+    <color name="omni_clock_ambient_color">#ffffff</color>
+    <color name="omni_clock_ambient_bg_color">#000000</color>
+    <color name="omni_clock_text_color">#ffffff</color>
 </resources>

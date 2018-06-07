@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2018 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+            android:key="omni_clock_settings"
+            android:title="@string/omni_clock_settings_title" >
+
+    <org.omnirom.omnilib.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_omni_clock_24h_mode"
+        android:title="@string/omni_clock_24h_mode_title"
+        android:summary="@string/omni_clock_24h_mode_summary"
+        android:defaultValue="false" />
+
+    <org.omnirom.omnilib.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_omni_clock_show_ticks"
+        android:title="@string/omni_clock_show_ticks_title"
+        android:summary="@string/omni_clock_show_ticks_summary"
+        android:defaultValue="false" />
+
+    <org.omnirom.omnilib.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_omni_clock_show_numbers"
+        android:title="@string/omni_clock_show_numbers_title"
+        android:summary="@string/omni_clock_show_numbers_summary"
+        android:defaultValue="false" />
+
+    <org.omnirom.omnilib.preference.ColorSelectPreference
+        android:key="bg_color"
+        android:persistent="false"
+        settings:withAlpha="true"
+        android:title="@string/omni_clock_bg_color_title" />
+
+    <org.omnirom.omnilib.preference.ColorSelectPreference
+        android:key="border_color"
+        android:persistent="false"
+        settings:withAlpha="true"
+        android:title="@string/omni_clock_border_color_title" />
+
+    <org.omnirom.omnilib.preference.ColorSelectPreference
+        android:key="hour_color"
+        android:persistent="false"
+        settings:withAlpha="true"
+        android:title="@string/omni_clock_hour_color_title" />
+
+    <org.omnirom.omnilib.preference.ColorSelectPreference
+        android:key="minute_color"
+        android:persistent="false"
+        settings:withAlpha="true"
+        android:title="@string/omni_clock_minute_color_title" />
+
+    <org.omnirom.omnilib.preference.ColorSelectPreference
+        android:key="text_color"
+        android:persistent="false"
+        settings:withAlpha="true"
+        android:title="@string/omni_clock_text_color_title" />
+
+    <org.omnirom.omnilib.preference.ColorSelectPreference
+        android:key="accent_color"
+        android:persistent="false"
+        settings:withAlpha="true"
+        android:title="@string/omni_clock_accent_color_title" />
+</PreferenceScreen>
+

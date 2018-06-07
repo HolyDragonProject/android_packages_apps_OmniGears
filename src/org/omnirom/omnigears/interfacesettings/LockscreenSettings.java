@@ -39,8 +39,10 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
     private static final String TAG = "LockscreenSettings";
     private static final String LOCKSCREEN_CLOCK_STYLE = "lockscreen_clock_style";
+    private static final String KEY_OMNI_CLOCK_SETTINGS = "omni_clock_settings";
 
     private ListPreference mLockscreenClockStyle;
+    private Preference mOmniClockSettings;
 
     @Override
     public int getMetricsCategory() {
@@ -60,6 +62,9 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         mLockscreenClockStyle.setValue(Integer.toString(clockStyle));
         mLockscreenClockStyle.setSummary(mLockscreenClockStyle.getEntry());
         mLockscreenClockStyle.setOnPreferenceChangeListener(this);
+
+        mOmniClockSettings = findPreference(KEY_OMNI_CLOCK_SETTINGS);
+        mOmniClockSettings.setEnabled(clockStyle == 2);
     }
 
     @Override
@@ -74,6 +79,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
             int index = mLockscreenClockStyle.findIndexOfValue((String) newValue);
             mLockscreenClockStyle.setSummary(mLockscreenClockStyle.getEntries()[index]);
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_CLOCK_STYLE, value);
+            mOmniClockSettings.setEnabled(value == 2);
             return true;
         }
         return false;

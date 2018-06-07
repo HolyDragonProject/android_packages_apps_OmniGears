@@ -820,4 +820,20 @@
     <string name="lockscreen_clock_style_title">Lock screen clock style</string>
     <string name="clock_style_digital">Digital</string>
     <string name="clock_style_analog">Analog</string>
+    <string name="clock_style_omni">OmniClock</string>
+
+    <string name="omni_clock_settings_title">Analog clock</string>
+    <string name="omni_clock_settings_summary">Style and color settings</string>
+    <string name="omni_clock_24h_mode_title">24h mode</string>
+    <string name="omni_clock_24h_mode_summary"></string>
+    <string name="omni_clock_show_ticks_title">Show hour marks</string>
+    <string name="omni_clock_show_ticks_summary"></string>
+    <string name="omni_clock_show_numbers_title">Show hour numbers</string>
+    <string name="omni_clock_show_numbers_summary"></string>
+    <string name="omni_clock_bg_color_title">Background color</string>
+    <string name="omni_clock_border_color_title">Border color</string>
+    <string name="omni_clock_hour_color_title">Hour color</string>
+    <string name="omni_clock_minute_color_title">Minute color</string>
+    <string name="omni_clock_text_color_title">Text color</string>
+    <string name="omni_clock_accent_color_title">Accent color</string>
 </resources>

@@ -57,6 +57,13 @@
         android:entries="@array/lockscreen_clock_style_entries"
         android:entryValues="@array/lockscreen_clock_style_values"
         android:persistent="false"/>
+
+    <Preference
+        android:key="omni_clock_settings"
+        android:title="@string/omni_clock_settings_title"
+        android:summary="@string/omni_clock_settings_summary"
+        android:fragment="org.omnirom.omnigears.OmniClockSettings" />
+
     <org.omnirom.omnilib.preference.SystemSettingSwitchPreference
         android:key="face_auto_unlock"
         android:title="@string/face_auto_unlock_title"
