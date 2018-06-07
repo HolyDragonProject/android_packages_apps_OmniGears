@@ -816,4 +816,8 @@
     <string name="heads_up_time_out_6sec">6 seconds</string>
     <string name="heads_up_time_out_8sec">8 seconds</string>
     <string name="heads_up_time_out_10sec">10 seconds</string>
+
+    <string name="lockscreen_clock_style_title">Lock screen clock style</string>
+    <string name="clock_style_digital">Digital</string>
+    <string name="clock_style_analog">Analog</string>
 </resources>
