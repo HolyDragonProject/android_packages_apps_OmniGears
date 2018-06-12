@@ -822,4 +822,9 @@
     <string name="digital_clock_settings_summary">Style settings</string>
 
     <string name="event_service_settings_title">Events</string>
+
+    <!-- QuickSettings Panel Transparency -->
+    <string name="quick_settings_category">Quick Settings</string>
+    <string name="qs_panel_alpha_title">Quick Settings opacity</string>
+    <string name="qs_panel_alpha_summary">Configure opacity of background</string>
 </resources>
