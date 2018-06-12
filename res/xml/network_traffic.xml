@@ -15,7 +15,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:settings="http://schemas.android.com/apk/lib/res/org.omnirom.omnilib"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:key="category_network_traffic"
         android:title="@string/network_traffic_title">
 
@@ -61,8 +61,7 @@
                 android:title="@string/network_traffic_autohide_threshold"
                 android:max="100"
                 settings:min="0"
-                settings:unitsLeft=""
-                settings:unitsRight="kB/s"
+                settings:unitsRight="@string/kbs"
                 android:dependency="network_traffic_autohide"
                 android:persistent="false" />
 

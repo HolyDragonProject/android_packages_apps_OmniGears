@@ -15,8 +15,8 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:settings="http://schemas.android.com/apk/lib/res/org.omnirom.omnilib"
-        android:key="button_brightness"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="button_brightness"
         android:title="@string/button_backlight_title" >
 
     <org.omnirom.omnilib.preference.SystemSettingSwitchPreference
@@ -43,7 +43,6 @@
         android:summary="@string/button_timeout_summary"
         android:max="30"
         settings:min="0"
-        settings:unitsLeft=""
         settings:unitsRight="@string/unit_sec"
         android:persistent="false"
         android:dependency="button_backlight_enable" />

@@ -15,7 +15,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:settings="http://schemas.android.com/apk/lib/res/org.omnirom.omnilib"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:key="style_settings"
         android:title="@string/style_settings_title" >
 
@@ -165,7 +165,6 @@
             android:summary="@string/status_bar_custom_header_shadow_summary"
             android:max="100"
             settings:min="0"
-            settings:unitsLeft=""
             settings:unitsRight="@string/unit_percent"
             android:persistent="false"
             android:dependency="status_bar_custom_header" />

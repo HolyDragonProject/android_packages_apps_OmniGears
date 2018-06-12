@@ -15,8 +15,8 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:settings="http://schemas.android.com/apk/lib/res/org.omnirom.omnilib"
-        android:key="led_settings"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="led_settings"
         android:title="@string/battery_light_settings_title" >
 
     <org.omnirom.omnilib.preference.SystemSettingSwitchPreference
