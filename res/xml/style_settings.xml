@@ -72,7 +72,7 @@
             android:max="25"
             settings:min="0"
             android:defaultValue="12"
-            settings:units=""
+            settings:unitsRight="@string/unit_dp"
             android:persistent="false"
             android:dependency="sysui_rounded_fwvals" />
 
@@ -81,7 +81,7 @@
             android:title="@string/content_padding"
             android:max="10"
             settings:min="0"
-            settings:units=""
+            settings:unitsRight="@string/unit_dp"
             android:persistent="false"
             android:dependency="sysui_rounded_fwvals" />
 

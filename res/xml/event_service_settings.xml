@@ -127,7 +127,6 @@
             android:summary="@string/disable_wifi_threshold_summary"
             android:title="@string/disable_wifi_threshold_title"
             settings:min="0"
-            settings:unitsLeft=""
             settings:unitsRight="@string/unit_minutes" />
     </PreferenceCategory>
 </PreferenceScreen>
