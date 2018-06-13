@@ -821,7 +821,7 @@
     <string name="lockscreen_clock_style_title">Lock screen clock style</string>
     <string name="clock_style_digital">Digital</string>
     <string name="clock_style_analog">Analog</string>
-    <string name="clock_style_omni">OmniClock</string>
+    <string name="clock_style_binary">Binary</string>
 
     <string name="omni_clock_settings_title">Analog clock</string>
     <string name="omni_clock_settings_summary">Style and color settings</string>
