@@ -59,6 +59,12 @@
         android:persistent="false"/>
 
     <Preference
+        android:key="digital_clock_settings"
+        android:title="@string/digital_clock_settings_title"
+        android:summary="@string/digital_clock_settings_summary"
+        android:fragment="org.omnirom.omnigears.DigitalClockSettings" />
+
+    <Preference
         android:key="omni_clock_settings"
         android:title="@string/omni_clock_settings_title"
         android:summary="@string/omni_clock_settings_summary"

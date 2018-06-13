@@ -837,4 +837,11 @@
     <string name="omni_clock_minute_color_title">Minute color</string>
     <string name="omni_clock_text_color_title">Text color</string>
     <string name="omni_clock_accent_color_title">Accent color</string>
+
+    <string name="lockscreen_digital_clock_two_lines_title">Two lines style</string>
+    <string name="lockscreen_digital_clock_two_lines_summary"></string>
+    <string name="lockscreen_digital_clock_bold_hour_title">Bold hours style</string>
+    <string name="lockscreen_digital_clock_bold_hour_summary"></string>
+    <string name="digital_clock_settings_title">Digital clock</string>
+    <string name="digital_clock_settings_summary">Style settings</string>
 </resources>
