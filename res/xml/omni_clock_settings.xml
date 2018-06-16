@@ -40,36 +40,42 @@
     <org.omnirom.omnilib.preference.ColorSelectPreference
         android:key="bg_color"
         android:persistent="false"
+        settings:multiColor="true"
         settings:withAlpha="true"
         android:title="@string/omni_clock_bg_color_title" />
 
     <org.omnirom.omnilib.preference.ColorSelectPreference
         android:key="border_color"
         android:persistent="false"
+        settings:multiColor="true"
         settings:withAlpha="true"
         android:title="@string/omni_clock_border_color_title" />
 
     <org.omnirom.omnilib.preference.ColorSelectPreference
         android:key="hour_color"
         android:persistent="false"
+        settings:multiColor="true"
         settings:withAlpha="true"
         android:title="@string/omni_clock_hour_color_title" />
 
     <org.omnirom.omnilib.preference.ColorSelectPreference
         android:key="minute_color"
         android:persistent="false"
+        settings:multiColor="true"
         settings:withAlpha="true"
         android:title="@string/omni_clock_minute_color_title" />
 
     <org.omnirom.omnilib.preference.ColorSelectPreference
         android:key="text_color"
         android:persistent="false"
+        settings:multiColor="true"
         settings:withAlpha="true"
         android:title="@string/omni_clock_text_color_title" />
 
     <org.omnirom.omnilib.preference.ColorSelectPreference
         android:key="accent_color"
         android:persistent="false"
+        settings:multiColor="true"
         settings:withAlpha="true"
         android:title="@string/omni_clock_accent_color_title" />
 </PreferenceScreen>

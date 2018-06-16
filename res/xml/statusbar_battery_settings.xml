@@ -15,6 +15,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
             android:title="@string/battery_title"
             android:key="statusbar_battery">
 
@@ -74,6 +75,8 @@
                 android:defaultValue="false"/>
             <org.omnirom.omnilib.preference.ColorSelectPreference
                 android:key="statusbar_battery_charging_color"
+                settings:multiColor="true"
+                settings:withAlpha="true"
                 android:title="@string/statusbar_battery_charging_color_title"
                 android:persistent="false"
                 android:dependency ="statusbar_battery_charging_color_enable"/>
