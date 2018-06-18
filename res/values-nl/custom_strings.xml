@@ -279,11 +279,13 @@
   <string name="recents_fullscreen_title">Volledig scherm</string>
   <string name="weather_title">Weer</string>
   <string name="weather_config_title">Weerservice</string>
+  <string name="weather_config_summary">Systeem service instellingen</string>
   <string name="header_weather_title">Weer weergeven in header</string>
   <string name="header_weather_summary">Schakel de weergave van het weer in het notificatiepaneel in
 Schakel het tonen van het weer in het notificatiepaneel in</string>
   <string name="weather_icon_pack_title">Weer icon pack</string>
   <string name="weather_icon_pack_note">Note\u003a u kunt nieuwe icon-packs uit de play store installeren kunt door te zoeken naar \"Chronus icons\"</string>
+  <string name="weather_icon_pack_info_title">Staat pictogrampakket wordt gebruikt in snelle instellingen en vergrendelscherm</string>
   <!-- Navigationbar settings -->
   <string name="navigationbar_title">Navigatiebalk</string>
   <!-- Enable Tablet Style navigation bar -->
@@ -637,6 +639,7 @@ Schakel het tonen van het weer in het notificatiepaneel in</string>
   <string name="quick_pulldown_always">Altijd</string>
   <!-- Expanded desktop -->
   <string name="expanded_desktop_title">Uitgebreid bureaublad</string>
+  <string name="expanded_desktop_summary">Per-app configuratie van de statusbalk en navigatiebalk</string>
   <string name="expanded_hide_nothing">Niets verbergen</string>
   <string name="expanded_hide_status">Statusbalk verbergen</string>
   <string name="expanded_hide_navigation">Navigatiebalk verbergen</string>
@@ -666,4 +669,13 @@ Schakel het tonen van het weer in het notificatiepaneel in</string>
   <string name="hide_lockscreen_alarm_summary">Verander zichtbaarheid van alarmtekst onder klokwidget</string>
   <string name="hide_lockscreen_status_bar_title">Statusbalk verbergen</string>
   <string name="hide_lockscreen_status_bar_summary">Raak statusbalk aan om zichtbaarheid to veranderen</string>
+  <string name="hide_lockscreen_indicator_display_title">Verberg status tekst onderaan</string>
+  <string name="hide_lockscreen_indicator_display_summary">Informatie over opladen en tips over ontgrendelen verbergen</string>
+  <string name="hide_lockscreen_icon_title">Vergrendelingsschermpictogram verbergen</string>
+  <string name="hide_lockscreen_icon_summary">Wijzig de zichtbaarheid van het vergrendelschermpictogram</string>
+  <string name="lockscreen_weather_title">Toon weersomstandigheden</string>
+  <string name="lockscreen_weather_summary">Toon de huidige weersomstandigheden en temperatuur</string>
+  <string name="lockscreen_items_aod_info_title">Deze zichtbaarheidsconfiguratie is ook van toepassing op de actieve display</string>
+  <string name="system_proxi_check_enabled_title">Nabijheidscontrole</string>
+  <string name="system_proxi_check_enabled_summary">Controleer de nabijheidssensor voordat u de aan/uitknop en de volume-knop activeert</string>
 </resources>

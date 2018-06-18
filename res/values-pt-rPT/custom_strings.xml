@@ -23,6 +23,7 @@
   <string name="profiles_add">Adicionar...</string>
   <string name="profile_choose_app">Escolher aplicação</string>
   <string name="reset">Repor</string>
+  <string name="kbs">kB/s</string>
   <!-- Hardware keys -->
   <string name="button_keys_title">Botões</string>
   <string name="keys_bindings_title">Ações dos botões</string>
@@ -86,7 +87,7 @@
   <string name="button_back_kill_timeout_2000ms">2000 ms</string>
   <!-- Double tap to sleep -->
   <string name="double_tap_to_sleep_title">Toque duplo para desligar ecrã</string>
-  <string name="double_tap_to_sleep_summary">Tocar duas vezes na barra de estado para desligar o ecrã</string>
+  <string name="double_tap_to_sleep_summary">Dê um toque duplo na barra de estado para desligar o ecrã</string>
   <!-- Doze pulse (ambient display) options -->
   <string name="doze_overwrite_value_title">Substituir o valor</string>
   <string name="doze_overwrite_value_summary">Permitir substituição do valor predefinido com a configuração do utilizador</string>
@@ -202,7 +203,7 @@
   <string name="long_press_recents_action_title">Ação da pressão longa no botão Visão geral</string>
   <string name="long_press_recents_action_split">Ativar ecrã dividido</string>
   <string name="long_press_home_action_title">Toque longo no botão Página Inicial</string>
-  <string name="double_press_home_action_title">Ação de duplo toque no botão Página Inicial</string>
+  <string name="double_press_home_action_title">Ação de toque duplo no botão Página Inicial</string>
   <string name="keys_action_recents">Aplicações recentes</string>
   <string name="keys_action_assist">Assistente de lançamento</string>
   <string name="doze_brightness_level_title">Nível de brilho</string>
@@ -563,7 +564,7 @@
   <string name="system_volume_option_title">Volume do sistema</string>
   <string name="call_volume_option_title">Volume de chamadas de voz</string>
   <string name="double_tap_sleep_lockscreen_title">Toque duplo no ecrã de bloqueio para desligar o ecrã</string>
-  <string name="double_tap_sleep_lockscreen_summary">Toque duplo em qualquer parte do ecrã de bloqueio para desligar o ecrã</string>
+  <string name="double_tap_sleep_lockscreen_summary">Dê um toque duplo em qualquer parte do ecrã de bloqueio para desligar o ecrã</string>
   <string name="screen_off_animation_fade">Desvanecer simples</string>
   <string name="screen_off_animation_color">Desvanecer cor</string>
   <string name="screen_off_animation_crt">CRT</string>
@@ -731,4 +732,23 @@
     <string name="heads_up_time_out_6sec">6 segundos</string> 
     <string name="heads_up_time_out_8sec">8 segundos</string> 
     <string name="heads_up_time_out_10sec">10 segundos</string> 
+  <string name="lockscreen_clock_style_title">Estilo do relógio no ecrã de bloqueio</string>
+  <string name="clock_style_digital">Digital</string>
+  <string name="clock_style_analog">Analógico</string>
+  <string name="clock_style_binary">Binário</string>
+  <string name="omni_clock_settings_title">Relógio analógico</string>
+  <string name="omni_clock_settings_summary">Definições de estilo e cor</string>
+  <string name="omni_clock_24h_mode_title">Modo 24h</string>
+  <string name="omni_clock_show_ticks_title">Mostrar marcas das horas</string>
+  <string name="omni_clock_show_numbers_title">Mostrar os números das horas</string>
+  <string name="omni_clock_bg_color_title">Cor de fundo</string>
+  <string name="omni_clock_border_color_title">Cor da margem</string>
+  <string name="omni_clock_hour_color_title">Cor das horas</string>
+  <string name="omni_clock_minute_color_title">Cor dos minutos</string>
+  <string name="omni_clock_text_color_title">Cor do texto</string>
+  <string name="omni_clock_accent_color_title">Cor do realce</string>
+  <string name="lockscreen_digital_clock_two_lines_title">Estilo de duas linhas</string>
+  <string name="lockscreen_digital_clock_bold_hour_title">Estilo de horas a negrito</string>
+  <string name="digital_clock_settings_title">Relógio digital</string>
+  <string name="digital_clock_settings_summary">Definições de estilo</string>
 </resources>

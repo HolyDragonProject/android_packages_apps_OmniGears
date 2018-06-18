@@ -23,6 +23,7 @@
   <string name="profiles_add">Pridať...</string>
   <string name="profile_choose_app">Zvoliť aplikáciu</string>
   <string name="reset">Vynulovať</string>
+  <string name="kbs">kB/s</string>
   <!-- Hardware keys -->
   <string name="button_keys_title">Tlačidlá</string>
   <string name="keys_bindings_title">Akcie tlačidiel</string>
@@ -264,6 +265,8 @@
   <string name="network_traffic_autohide_threshold">Prah nečinnosti</string>
   <string name="network_traffic_enable_title">Zapnúť</string>
   <!-- captive portal - disable connectivity check -->
+  <string name="captive_portal_ignore_mode_title">Povoliť zadania obmedzenia</string>
+  <string name="captive_portal_ignore_mode_summary">Povoliť kontrolu pripojenia povolením položky obmedzenia</string>
   <!-- statusbar brightness -->
   <string name="status_bar_brightness_control_title">Ovládanie jasu</string>
   <string name="status_bar_brightness_control_summary">Upraviť jas posúvaním po stavovej lište</string>
@@ -278,10 +281,13 @@
   <string name="recents_search_bar_title">Zobrazovať vyhľadávaciu lištu</string>
   <string name="recents_fullscreen_title">Celá obrazovka</string>
   <string name="weather_title">Počasie</string>
+  <string name="weather_config_title">Služba počasia</string>
+  <string name="weather_config_summary">Nastavenia systémovej služby</string>
   <string name="header_weather_title">Zobrazenie počasia v záhlaví</string>
   <string name="header_weather_summary">Povoliť zobrazenie počasia v záhlaví na notifikačnom paneli</string>
   <string name="weather_icon_pack_title">Balíček ikon počasia</string>
   <string name="weather_icon_pack_note">Poznámka\u003a nové balíky ikon môžete nainštalovať z obchodu play, po vyhľadaní frázy „Chronus icons\"</string>
+  <string name="weather_icon_pack_info_title">Balíček ikon počasia je použitý v Rýchlych nastaveniach a na obrazovke uzamknutia</string>
   <!-- Navigationbar settings -->
   <string name="navigationbar_title">Navigačná lišta</string>
   <!-- Enable Tablet Style navigation bar -->
@@ -495,6 +501,7 @@
   <string name="DESC_LIGHT_PRE_IDLE_TIMEOUT">To je čas, ktorý čakáme, odkedy sme sa rozhodli prejsť do pohotovostného režimu, až kým to skutočne neuskutočníme, kým čakáme na pracovné postupy a ďalšie aktuálne aktivity na dokončenie</string>
   <string name="DESC_LIGHT_IDLE_TIMEOUT">Toto je počiatočný čas spustenia v pohotovostnom režime</string>
   <string name="DESC_LIGHT_IDLE_FACTOR">Faktor zmeny merítka, ktorý sa používa pre jednoduchý režim nečinnosti pri každom dokončení cyklu</string>
+  <string name="DESC_LIGHT_MAX_IDLE_TIMEOUT">Toto je maximálny čas spustenia v režime nečinnosti</string>
   <string name="DESC_LIGHT_IDLE_MAINTENANCE_MIN_BUDGET">Toto je minimálny čas, ktorý chcete sprístupniť pre režim údržby v režime slabej nečinnosti</string>
   <string name="DESC_LIGHT_IDLE_MAINTENANCE_MAX_BUDGET">Toto je maximálny čas, ktorý chcete sprístupniť pre režim údržby v režime slabej nečinnosti</string>
   <string name="DESC_MIN_LIGHT_MAINTENANCE_TIME">Toto je minimálny čas, po ktorý zostaneme v režime údržby po ľahkom spánku</string>
@@ -638,6 +645,7 @@
   <string name="quick_pulldown_always">Vždy</string>
   <!-- Expanded desktop -->
   <string name="expanded_desktop_title">Rozšírená plocha</string>
+  <string name="expanded_desktop_summary">Nastavenia stavového riadku a navigačného panela podľa aplikácie</string>
   <string name="expanded_hide_nothing">Nič neskrývať</string>
   <string name="expanded_hide_status">Skryť stavový riadok</string>
   <string name="expanded_hide_navigation">Skryť navigačný panel</string>
@@ -667,4 +675,39 @@
   <string name="hide_lockscreen_alarm_summary">Zmeniť viditeľnosť textu budíka pod miniaplikáciou</string>
   <string name="hide_lockscreen_status_bar_title">Skryť stavový riadok</string>
   <string name="hide_lockscreen_status_bar_summary">Dotykom na stavový riadok sa prepne viditeľnosť</string>
+  <string name="hide_lockscreen_indicator_display_title">Skryť dolný stavový text</string>
+  <string name="hide_lockscreen_indicator_display_summary">Skryť informácie o nabíjaní a tipy na odomknutie</string>
+  <string name="hide_lockscreen_icon_title">Skryť ikonu zámku obrazovky</string>
+  <string name="hide_lockscreen_icon_summary">Zmeniť viditeľnosť zámku obrazovky</string>
+  <string name="lockscreen_weather_title">Zobraziť poveternostné podmienky</string>
+  <string name="lockscreen_weather_summary">Zobraziť aktuálne počasie a teplotu</string>
+  <string name="lockscreen_items_aod_info_title">Táto konfigurácia viditeľnosti platí aj pre Ambientne zobrazenie</string>
+  <string name="system_proxi_check_enabled_title">Kontrola senzora priblíženia</string>
+  <string name="system_proxi_check_enabled_summary">Skontroluje senzor priblíženia pred manipuláciou s tlačidlom Napájanie a stlačením tlačidla Hlasitosti</string>
+  <string name="aspect_ratio_apps_enabled_title">Povoliť zmenu veľkosti</string>
+  <string name="aspect_ratio_apps_enabled_summary">Povoliť starším aplikáciám používať celú obrazovku</string>
+  <string name="aspect_ratio_apps_list_title">Aplikácie, ktoré môžu používať zmenu veľkosti</string>
+  <string name="aspect_ratio_category_title">Zmena veľkosti starších aplikácií</string>
+  <string name="aspect_ratio_apps_info">Po vykonaných zmenách je nutné aplikáciu reštartovať</string>
+  <string name="navigation_bar_menu_arrow_keys_title">Klávesy so šípkami pri písaní</string>
+  <string name="navigation_bar_menu_arrow_keys_summary">Zobraziť tlačidlá pre ľavý a pravý kurzor pri písaní</string>
+  <string name="lockscreen_clock_style_title">Štýl hodín na obrazovke uzamknutia</string>
+  <string name="clock_style_digital">Digitálne</string>
+  <string name="clock_style_analog">Analógové</string>
+  <string name="clock_style_binary">Binárne</string>
+  <string name="omni_clock_settings_title">Analógové hodiny</string>
+  <string name="omni_clock_settings_summary">Nastavenia štýlu a farieb</string>
+  <string name="omni_clock_24h_mode_title">24h režim</string>
+  <string name="omni_clock_show_ticks_title">Zobraziť značky hodín</string>
+  <string name="omni_clock_show_numbers_title">Zobraziť čísla hodín</string>
+  <string name="omni_clock_bg_color_title">Farba pozadia</string>
+  <string name="omni_clock_border_color_title">Farba ohraničenia</string>
+  <string name="omni_clock_hour_color_title">Farba hodín</string>
+  <string name="omni_clock_minute_color_title">Farba minút</string>
+  <string name="omni_clock_text_color_title">Farba textu</string>
+  <string name="omni_clock_accent_color_title">Farba zvýraznenia</string>
+  <string name="lockscreen_digital_clock_two_lines_title">Štýl dvoch riadkov</string>
+  <string name="lockscreen_digital_clock_bold_hour_title">Štýl tučných hodín</string>
+  <string name="digital_clock_settings_title">Digitálne hodiny</string>
+  <string name="digital_clock_settings_summary">Nastavenia štýlu</string>
 </resources>

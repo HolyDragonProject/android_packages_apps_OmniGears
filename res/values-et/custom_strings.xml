@@ -279,10 +279,12 @@
   <string name="recents_fullscreen_title">Täisekraan</string>
   <string name="weather_title">Ilm</string>
   <string name="weather_config_title">Ilmateenus</string>
+  <string name="weather_config_summary">Süsteemiteenuse seaded</string>
   <string name="header_weather_title">Päisevaate ilm</string>
   <string name="header_weather_summary">Luba teadetepaneeli päises ilmateate kuvamine</string>
   <string name="weather_icon_pack_title">Ilmateate ikoonipakk</string>
   <string name="weather_icon_pack_note">Märkus\u003a sa võid installida uusi ikoonipakke, otsides Play poest \"Chronus icons\"</string>
+  <string name="weather_icon_pack_info_title">Ilmateate ikoonipakki kasutatakse kiirseadetes ja lukukuval</string>
   <!-- Navigationbar settings -->
   <string name="navigationbar_title">Navigatsiooniriba</string>
   <!-- Enable Tablet Style navigation bar -->
@@ -631,6 +633,7 @@
   <string name="quick_pulldown_always">Alati</string>
   <!-- Expanded desktop -->
   <string name="expanded_desktop_title">Laiendatud töölaud</string>
+  <string name="expanded_desktop_summary">Rakendusepõhine seadistus oleku- ja navigatsiooniribale</string>
   <string name="expanded_hide_nothing">Ära peida midagi</string>
   <string name="expanded_hide_status">Peida olekuriba</string>
   <string name="expanded_hide_navigation">Peida navigatsiooniriba</string>
@@ -660,4 +663,20 @@
   <string name="hide_lockscreen_alarm_summary">Muuda äratusteksti nähtavust kellavidina all</string>
   <string name="hide_lockscreen_status_bar_title">Peida olekuriba</string>
   <string name="hide_lockscreen_status_bar_summary">Koputa olekuriba nähtavuse lülitamiseks</string>
+  <string name="hide_lockscreen_indicator_display_title">Peida alumine olekutekst</string>
+  <string name="hide_lockscreen_indicator_display_summary">Peida laadimise info ja luku avamise vihjed</string>
+  <string name="hide_lockscreen_icon_title">Peida lukukuva ikoon</string>
+  <string name="hide_lockscreen_icon_summary">Muuda lukukuva ikooni nähtavust</string>
+  <string name="lockscreen_weather_title">Näita ilmateadet</string>
+  <string name="lockscreen_weather_summary">Näita praegust ilmateadet ja temperatuuri</string>
+  <string name="lockscreen_items_aod_info_title">See nähtavuskonfiguratsioon rakendub ka ambientse ekraani puhul</string>
+  <string name="system_proxi_check_enabled_title">Läheduskontroll</string>
+  <string name="system_proxi_check_enabled_summary">Kontrolli lähedussensorit enne jõudenupu ja häälenuppude ärkamissündmuste rakendamist</string>
+  <string name="aspect_ratio_apps_enabled_title">Luba skaleerimine</string>
+  <string name="aspect_ratio_apps_enabled_summary">Luba pärandrakendustel täisekraani kasutada</string>
+  <string name="aspect_ratio_apps_list_title">Rakendused, millel lubatakse skaleerimine</string>
+  <string name="aspect_ratio_category_title">Pärandrakeduste skaleerimine</string>
+  <string name="aspect_ratio_apps_info">Rakendused tuleb peale muutusi taaskäivitada</string>
+  <string name="navigation_bar_menu_arrow_keys_title">Nooleklahvid kirjutamise ajal</string>
+  <string name="navigation_bar_menu_arrow_keys_summary">Kuva vasakut ja paremat kursorinuppu kirjutamise ajal</string>
 </resources>

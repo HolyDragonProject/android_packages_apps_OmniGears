@@ -278,10 +278,13 @@
   <string name="recents_search_bar_title">Показывать строку поиска</string>
   <string name="recents_fullscreen_title">Полноэкранный режим</string>
   <string name="weather_title">Погода</string>
+  <string name="weather_config_title">Служба прогноза погоды</string>
+  <string name="weather_config_summary">Настройки системной службы</string>
   <string name="header_weather_title">Показать погоду в заголовке</string>
   <string name="header_weather_summary">Показывать изображение в заголовке панели уведомления в зависимости от времени суток</string>
   <string name="weather_icon_pack_title">Набор значков \"Погода\"</string>
   <string name="weather_icon_pack_note">Учтите\u003a вы можете установить новые наборы значков из Play Market по запросу \"Chronus icons\"</string>
+  <string name="weather_icon_pack_info_title">Набор значков погоды используется в быстрых настройках и на экране блокировки</string>
   <!-- Navigationbar settings -->
   <string name="navigationbar_title">Панель навигации</string>
   <!-- Enable Tablet Style navigation bar -->
@@ -492,6 +495,7 @@
   <string name="DESC_LIGHT_PRE_IDLE_TIMEOUT">Это количество времени, которое мы будем ждать с того момента, когда мы решаем, что мы хотели бы простаивать до тех пор, пока мы на самом деле не сделаем этого, пока ожидаем завершения работы и другой текущей деятельности</string>
   <string name="DESC_LIGHT_IDLE_TIMEOUT">Это начальное время, которое мы будем запускать в режиме ожидания в режиме обслуживания</string>
   <string name="DESC_LIGHT_IDLE_FACTOR">Масштабирующий коэффициент для применения к легкому режиму ожидания каждый раз, когда мы завершаем цикл</string>
+  <string name="DESC_LIGHT_MAX_IDLE_TIMEOUT">Это максимальное время работы в режиме ожидания</string>
   <string name="DESC_LIGHT_IDLE_MAINTENANCE_MIN_BUDGET">Это минимальное количество времени, которое мы хотим сделать доступным для режима обслуживания при легком простое</string>
   <string name="DESC_LIGHT_IDLE_MAINTENANCE_MAX_BUDGET">Это максимальное количество времени, которое мы хотим сделать доступным для режима обслуживания при легком простое</string>
   <string name="DESC_MIN_LIGHT_MAINTENANCE_TIME">Это минимальное количество времени, что мы останемся в режиме обслуживания после легкого сна</string>
@@ -616,10 +620,14 @@
   <string name="media_player_music_active_title">Не запускать событие при воспроизведении</string>
   <string name="autorun_single_app_title">Автозапуск одного приложения</string>
   <string name="autorun_single_app_summary">Не показывать диалог выбора приложения</string>
+  <string name="bt_a2dp_connect_app_list_summary">Приложения, которые будут отображаться при запуске события A2DP, например, подключение Bluetooth-гарнитуры</string>
+  <string name="headset_connect_app_list_summary">Приложения, которые будут отображаться при подключении проводных наушников</string>
   <string name="app_chooser_left">Слева</string>
   <string name="app_chooser_right">Справа</string>
   <string name="app_chooser_timeout_title">Тайм-аут диалогового окна выбора</string>
   <string name="app_chooser_position_title">Позиция диалогового окна выбора приложения</string>
+  <string name="wired_events_threshold_title">Время ожидания подключения проводных наушников</string>
+  <string name="wired_events_threshold_summary">Игнорировать события гарнитуры, когда они находятся в пределах порога</string>
   <!-- Quick Pulldown-->
   <string name="quick_pulldown_title">Быстрый доступ</string>
   <string name="quick_pulldown_summary">%1$s строки состояния при опускании вниз открывает панель быстрых настроек</string>
@@ -630,6 +638,7 @@
   <string name="quick_pulldown_always">Всегда</string>
   <!-- Expanded desktop -->
   <string name="expanded_desktop_title">Расширенный рабочий стол</string>
+  <string name="expanded_desktop_summary">Конфигурация приложения в строке состояния и панели навигации</string>
   <string name="expanded_hide_nothing">Ничего не скрывать</string>
   <string name="expanded_hide_status">Скрыть строку состояния</string>
   <string name="expanded_hide_navigation">Скрыть панель навигации</string>
@@ -659,4 +668,20 @@
   <string name="hide_lockscreen_alarm_summary">Изменение видимости текста будильника под виджетом часов</string>
   <string name="hide_lockscreen_status_bar_title">Скрыть строку состояния</string>
   <string name="hide_lockscreen_status_bar_summary">Нажмите на строку состояния, чтобы переключить видимость</string>
+  <string name="hide_lockscreen_indicator_display_title">Скрыть текст статуса внизу</string>
+  <string name="hide_lockscreen_indicator_display_summary">Скрыть информацию о зарядке и подсказки</string>
+  <string name="hide_lockscreen_icon_title">Скрыть значок экрана блокировки</string>
+  <string name="hide_lockscreen_icon_summary">Изменение видимости значка блокировки экрана</string>
+  <string name="lockscreen_weather_title">Отображать состояние погоды</string>
+  <string name="lockscreen_weather_summary">Отображать текущие погодные условия и температуру</string>
+  <string name="lockscreen_items_aod_info_title">Эта конфигурация видимости также применима к активному дисплею</string>
+  <string name="system_proxi_check_enabled_title">Проверка датчика приближения</string>
+  <string name="system_proxi_check_enabled_summary">Проверка датчика приближения перед началом работы с кнопками питания и громкости</string>
+  <string name="aspect_ratio_apps_enabled_title">Включить масштабирование</string>
+  <string name="aspect_ratio_apps_enabled_summary">Разрешить устаревшим приложениям использовать полноэкранный режим</string>
+  <string name="aspect_ratio_apps_list_title">Приложениям, которым разрешено использовать масштабирование</string>
+  <string name="aspect_ratio_category_title">Масштабирование в устаревших приложениях</string>
+  <string name="aspect_ratio_apps_info">Приложения необходимо перезапустить для применения изменений</string>
+  <string name="navigation_bar_menu_arrow_keys_title">Показывать стрелки при вводе текста</string>
+  <string name="navigation_bar_menu_arrow_keys_summary">Отображать левую и правую кнопки курсора при наборе текста</string>
 </resources>

@@ -23,6 +23,7 @@
   <string name="profiles_add">添加...</string>
   <string name="profile_choose_app">选择应用</string>
   <string name="reset">重置​​​</string>
+  <string name="kbs">kB/s</string>
   <!-- Hardware keys -->
   <string name="button_keys_title">按键</string>
   <string name="keys_bindings_title">按键行为</string>
@@ -67,7 +68,7 @@
   <string name="volume_button_music_control_title">音乐控制</string>
   <string name="volume_button_music_control_summary">熄屏模式下长按音量键切换歌曲</string>
   <string name="keys_action_sleep">进入睡眠</string>
-  <string name="keys_action_omniswitch">OmniSwitch 历史</string>
+  <string name="keys_action_omniswitch">OmniSwitch 最近任务</string>
   <string name="button_home_wake_title">音量键唤醒</string>
   <string name="button_home_wake_summary">按下主页键唤醒设备</string>
   <string name="button_home_answers_call_title">按钮接听电话</string>
@@ -253,8 +254,8 @@
   <string name="show_network_traffic_up">上传</string>
   <string name="show_network_traffic_down">下载</string>
   <string name="show_network_traffic_all">上传和下载</string>
-  <string name="show_network_traffic_bit">Bits/秒</string>
-  <string name="show_network_traffic_byte">Bytes/秒</string>
+  <string name="show_network_traffic_bit">每秒比特数</string>
+  <string name="show_network_traffic_byte">每秒字节数</string>
   <string name="show_network_traffic_500">500 毫秒</string>
   <string name="show_network_traffic_1000">1000 毫秒</string>
   <string name="show_network_traffic_1500">1500 毫秒</string>
@@ -264,8 +265,8 @@
   <string name="network_traffic_autohide_threshold">不活动状态阈值</string>
   <string name="network_traffic_enable_title">启用</string>
   <!-- captive portal - disable connectivity check -->
-  <string name="captive_portal_mode_title">禁用 captive portal</string>
-  <string name="captive_portal_mode_summary">通过禁用 captive portal 来取消网络连接检查</string>
+  <string name="captive_portal_ignore_mode_title">启用 captive portal</string>
+  <string name="captive_portal_ignore_mode_summary">通过启用 captive portal 启用连接检查</string>
   <!-- statusbar brightness -->
   <string name="status_bar_brightness_control_title">亮度调节</string>
   <string name="status_bar_brightness_control_summary">在状态栏上左右滑动以调整亮度</string>
@@ -442,8 +443,8 @@
   <string name="wakelocks_title">唤醒锁</string>
   <string name="wakelocks_summary">显示唤醒锁统计信息</string>
   <string name="system_category">系统</string>
-  <string name="custom_wall_browse_title">Omni壁纸</string>
-  <string name="custom_wall_browse_summary">浏览和设置Omni壁纸</string>
+  <string name="custom_wall_browse_title">Omni 壁纸</string>
+  <string name="custom_wall_browse_summary">浏览并设置 Omni 壁纸</string>
   <string name="show_cpu_title">显示 CPU 信息</string>
   <string name="show_cpu_summary">在屏幕上显示当前 CPU 信息</string>
   <string name="headset_plugged_notification_title">耳机通知</string>
@@ -463,7 +464,7 @@
   <string name="volume_button_force_media_title">使用媒体音量</string>
   <string name="volume_button_force_media_summary">默认情况下会更改媒体音量</string>
   <string name="status_bar_logo_title">状态栏图标</string>
-  <string name="status_bar_logo_summary">一个小的swag</string>
+  <string name="status_bar_logo_summary">一个小的 swag</string>
   <!-- Doze settings editor -->
   <string name="doze_settings_title">休眠设置</string>
   <string name="doze_settings_summary">更改休眠设置</string>
@@ -686,4 +687,23 @@
   <string name="aspect_ratio_apps_info">更改后需要重新启动应用程序</string>
   <string name="navigation_bar_menu_arrow_keys_title">键入光标</string>
   <string name="navigation_bar_menu_arrow_keys_summary">键入时显示左、右光标</string>
+  <string name="lockscreen_clock_style_title">锁定屏幕时钟风格</string>
+  <string name="clock_style_digital">数字</string>
+  <string name="clock_style_analog">指针</string>
+  <string name="clock_style_binary">二进制</string>
+  <string name="omni_clock_settings_title">指针时钟</string>
+  <string name="omni_clock_settings_summary">样式和颜色设置</string>
+  <string name="omni_clock_24h_mode_title">24 小时模式</string>
+  <string name="omni_clock_show_ticks_title">显示小时标记</string>
+  <string name="omni_clock_show_numbers_title">显示小时数</string>
+  <string name="omni_clock_bg_color_title">背景颜色</string>
+  <string name="omni_clock_border_color_title">边框颜色</string>
+  <string name="omni_clock_hour_color_title">小时颜色</string>
+  <string name="omni_clock_minute_color_title">分钟颜色</string>
+  <string name="omni_clock_text_color_title">文本颜色</string>
+  <string name="omni_clock_accent_color_title">强调色</string>
+  <string name="lockscreen_digital_clock_two_lines_title">双线样式</string>
+  <string name="lockscreen_digital_clock_bold_hour_title">粗体小时样式</string>
+  <string name="digital_clock_settings_title">数字时钟</string>
+  <string name="digital_clock_settings_summary">样式设置</string>
 </resources>

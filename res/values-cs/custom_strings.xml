@@ -279,7 +279,7 @@
   <string name="recents_fullscreen_title">Celá obrazovka</string>
   <string name="weather_title">Počasí</string>
   <string name="weather_config_title">Služba počasí</string>
-  <string name="weather_config_summary">Nastavení služby systému</string>
+  <string name="weather_config_summary">Nastavení systémové služby</string>
   <string name="header_weather_title">Zobrazení počasí v záhlaví</string>
   <string name="header_weather_summary">Povolí zobrazení počasí v záhlaví na panelu upozornění</string>
   <string name="weather_icon_pack_title">Balík ikon počasí</string>
@@ -685,4 +685,6 @@
   <string name="aspect_ratio_apps_list_title">Aplikace, které můžou používat změnu velikosti</string>
   <string name="aspect_ratio_category_title">Změna velikosti starších aplikací</string>
   <string name="aspect_ratio_apps_info">Po provedených změnách je nutné aplikaci restartovat</string>
+  <string name="navigation_bar_menu_arrow_keys_title">Klávesy se šipkami při psaní</string>
+  <string name="navigation_bar_menu_arrow_keys_summary">Zobrazit tlačítka pro levý a pravý kurzor při psaní</string>
 </resources>

@@ -609,7 +609,10 @@
   <string name="disabled_entry">Disabilitato</string>
   <string name="event_service_settings_title">Eventi</string>
   <string name="category_media_player_title">Lettore multimediale</string>
+  <string name="bt_a2dp_connect_app_list_title">Connessione Bluetooth A2DP</string>
   <string name="event_service_enabled_title">Attiva l\'evento</string>
+  <string name="event_service_running">Il servizio è in esecuzione</string>
+  <string name="event_service_stopped">Il servizio non è in esecuzione</string>
   <string name="app_chooser_left">Sinistra</string>
   <string name="app_chooser_right">Destra</string>
   <!-- Quick Pulldown-->
@@ -657,6 +660,7 @@
   <string name="hide_lockscreen_icon_summary">Modifica la visibilità dell\'icona di blocco schermo</string>
   <string name="lockscreen_weather_title">Visualizza le informazioni meteo</string>
   <string name="system_proxi_check_enabled_title">Controllo di prossimità</string>
+  <string name="aspect_ratio_apps_info">L\'applicazione dev\'essere riavviata dopo i cambiamenti</string>
   <string name="navigation_bar_menu_arrow_keys_title">Tasti direzionali durante la digitazione</string>
   <string name="navigation_bar_menu_arrow_keys_summary">Visualizza i cursori a destra e sinistra durante la digitazione</string>
 </resources>

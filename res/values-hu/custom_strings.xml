@@ -264,8 +264,6 @@
   <string name="network_traffic_autohide_threshold">Tétlenségi küszöb</string>
   <string name="network_traffic_enable_title">Engedélyezés</string>
   <!-- captive portal - disable connectivity check -->
-  <string name="captive_portal_mode_title">Beléptető-oldal letiltása</string>
-  <string name="captive_portal_mode_summary">Kapcsolat-ellenőrzés letiltása a beléptető-oldal letiltásával</string>
   <!-- statusbar brightness -->
   <string name="status_bar_brightness_control_title">Fényerő beállítása</string>
   <string name="status_bar_brightness_control_summary">Fényerő beállítása az állapotsoron való csúsztatással</string>
