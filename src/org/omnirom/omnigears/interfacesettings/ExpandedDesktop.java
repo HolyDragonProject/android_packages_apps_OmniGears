@@ -91,6 +91,11 @@ public class ExpandedDesktop extends SettingsPreferenceFragment implements
     private MenuItem mMenuItem;
 
     private int getExpandedDesktopState(ContentResolver cr) {
+        boolean enableForAll = Settings.Global.getInt(getContentResolver(),
+                Settings.Global.OVERRIDE_POLICY_CONTROL, 0) == 1;
+        if (enableForAll) {
+            return STATE_ENABLE_FOR_ALL;
+        }
         String value = Settings.Global.getString(cr, Settings.Global.POLICY_CONTROL);
         if ("immersive.full=*".equals(value)) {
             return STATE_ENABLE_FOR_ALL;
@@ -167,16 +172,20 @@ public class ExpandedDesktop extends SettingsPreferenceFragment implements
 
     private void enableForAll() {
         mExpandedDesktopState = STATE_ENABLE_FOR_ALL;
-        writeValue("immersive.full=*");
-        mAllPackagesAdapter.notifyDataSetInvalidated();
+        //writeValue("immersive.full=*");
+        Settings.Global.putInt(getContentResolver(),
+                    Settings.Global.OVERRIDE_POLICY_CONTROL, 1);
+        mAllPackagesAdapter.notifyDataSetChanged();
         hideListView();
     }
 
     private void userConfigurableSettings() {
         mExpandedDesktopState = STATE_USER_CONFIGURABLE;
-        writeValue("");
+        //writeValue("");
+        Settings.Global.putInt(getContentResolver(),
+                    Settings.Global.OVERRIDE_POLICY_CONTROL, 0);
         WindowManagerPolicyControl.reloadFromSetting(getActivity());
-        mAllPackagesAdapter.notifyDataSetInvalidated();
+        mAllPackagesAdapter.notifyDataSetChanged();
         showListView();
     }
 
@@ -190,9 +199,9 @@ public class ExpandedDesktop extends SettingsPreferenceFragment implements
         mEmptyView.setVisibility(View.GONE);
     }
 
-    private void writeValue(String value) {
+    /*private void writeValue(String value) {
         Settings.Global.putString(getContentResolver(), Settings.Global.POLICY_CONTROL, value);
-    }
+    }*/
 
     private static int getStateForPackage(String packageName) {
         int state = STATE_DISABLED;
