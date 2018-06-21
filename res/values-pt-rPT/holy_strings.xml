@@ -113,7 +113,7 @@ Nota: Por sua conta e risco</string>
     <string name="anbi_title">Toque acidental</string>
     <string name="anbi_summary">Impedir a interação com os botões de navegação enquanto o ecrã está a ser tocado</string>
 
-    <!-- Wallpaper tint --> 
+<!-- Wallpaper tint --> 
     <string name="wallpaper_tint_title">Cor da imagem de fundo</string> 
     <string name="wallpaper_tint_power_menu">Cor de fundo do menu de energia</string> 
     <string name="wallpaper_tint_recents">Cor de fundo das Recentes</string> 
@@ -121,4 +121,14 @@ Nota: Por sua conta e risco</string>
     <string name="wallpaper_tint_notification_shade">Cor da sombra das notificações</string> 
     <string name="wallpaper_tint_summary">Aplicar a cor baseado na imagem de fundo do ecrã principal</string> 
 
+<!-- Round Corner Radius --> 
+     <string name="corners_category">Cantos</string> 
+     <string name="corner_radius">Raio do Canto Arredondado</string> 
+     <string name="content_padding">Preenchimento de conteúdo de canto</string> 
+     <string name="corner_fwvals">Usar valores de estrutura</string> 
+     <string name="corner_fwvals_summary">Útil se o dispositivo realmente tiver cantos arredondados</string> 
+
+<!-- Recents --> 
+    <string name="recents_show_membar_title">Barra de memória</string>  
+    <string name="recents_show_membar_summary">Mostrar uma barra com a memória disponível do dispositivo</string>
 </resources>
