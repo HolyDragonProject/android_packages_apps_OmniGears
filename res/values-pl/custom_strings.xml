@@ -23,6 +23,7 @@
   <string name="profiles_add">Dodaj...</string>
   <string name="profile_choose_app">Wybierz aplikację</string>
   <string name="reset">Zresetuj</string>
+  <string name="kbs">kB/s</string>
   <!-- Hardware keys -->
   <string name="button_keys_title">Przyciski</string>
   <string name="keys_bindings_title">Akcje przycisków</string>
@@ -141,11 +142,16 @@
   <string name="batterylight_title">Ustawienia diody LED baterii</string>
   <string name="battery_light_enable">Włącz</string>
   <string name="battery_low_pulse_title">Pulsuj, jeśli poziom baterii jest niski</string>
+  <string name="battery_light_only_full_charge_title">Zaświeć tylko, gdy bateria zostanie w pełni naładowana</string>
   <string name="battery_light_list_title">Kolory</string>
   <string name="battery_light_low_color_title">Bateria na wyczerpaniu</string>
   <string name="battery_light_medium_color_title">Ładowanie</string>
   <string name="battery_light_full_color_title">Naładowane (90%)</string>
   <string name="battery_light_really_full_color_title">Naładowane (100%)</string>
+  <string name="fast_color_cat_title">Szybkie ładowanie</string>
+  <string name="fast_charging_led_enabled_title">Włącz kolor diody dla szybkiego ładowania</string>
+  <string name="fast_charging_led_enabled_summary">Podczas szybkiego ładowania używaj innego koloru do 90% naładowania</string>
+  <string name="fast_charging_light_color_title">Kolor</string>
   <string name="edit_battery_settings">Edytuj ustawienia baterii</string>
   <string name="led_color_green">ZIelony</string>
   <string name="led_color_red">Czerwony</string>
@@ -153,14 +159,18 @@
   <string name="statusbar_title">Pasek stanu</string>
   <string name="battery_title">Wyświetlanie stanu baterii</string>
   <string name="statusbar_battery_summary">Wybierz styl ikony baterii</string>
+  <string name="clock_title">Data i czas</string>
+  <string name="statusbar_clock_summary">Wybierz styl ikony baterii</string>
   <string name="battery_style_title">Styl</string>
   <string name="statusbar_percent_inside_title">Wygląd procentowy</string>
+  <string name="statusbar_percent_inside_summary">Wyświetlaj procent naładowania baterii na ikonie</string>
   <string name="statusbar_charging_image_title">Wskaźnik ładowania</string>
   <string name="statusbar_category_charging_title">Ładowanie</string>
   <string name="statusbar_charging_image_summary">Wyświetlaj ikonę pioruna podczas ładowania. Ukrywa procentowy stan baterii</string>
   <string name="statusbar_battery_charging_color_title">Kolor</string>
   <string name="statusbar_battery_charging_color_enable_title">Kolor podczas ładowania</string>
   <string name="battery_enable_title">Pokaż baterię</string>
+  <string name="statusbar_battery_low_color_enable_title">Kolor baterii</string>
   <string name="button_backlight_title">Podświetlenie przycisków</string>
   <string name="button_timeout_title">Opóźnienie podświetlenia</string>
   <string name="button_timeout_summary">Wyłączone dla wartości 0</string>
@@ -211,6 +221,8 @@
   <string name="custom_header_provider_title">Dostawca nagłówka</string>
   <string name="style_enabled_summary">Niestandardowe tło panelu powiadomień jest włączone</string>
   <string name="style_disabled_summary">Niestandardowe tło panelu powiadomień jest wyłączone</string>
+  <string name="custom_header_title">Niestandardowe tło panelu powiadomień</string>
+  <string name="file_header_select_title">Wybierz obraz</string>
   <!-- Network traffic -->
   <string name="network_traffic_title">Ruch sieciowy</string>
   <string name="show_network_traffic_state">Monitor ruch sieciowego na pasku stanu</string>

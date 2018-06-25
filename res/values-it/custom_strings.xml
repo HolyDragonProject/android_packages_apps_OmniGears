@@ -23,6 +23,7 @@
   <string name="profiles_add">Aggiungi...</string>
   <string name="profile_choose_app">Scegli app</string>
   <string name="reset">Azzera</string>
+  <string name="kbs">kb/s</string>
   <!-- Hardware keys -->
   <string name="button_keys_title">Tasti</string>
   <string name="keys_bindings_title">Azioni tasto</string>
@@ -264,6 +265,8 @@
   <string name="network_traffic_autohide_threshold">Soglia inattività</string>
   <string name="network_traffic_enable_title">Abilita</string>
   <!-- captive portal - disable connectivity check -->
+  <string name="captive_portal_ignore_mode_title">Attiva il captive portal</string>
+  <string name="captive_portal_ignore_mode_summary">Attiva il controllo della connettività abilitando captive portal</string>
   <!-- statusbar brightness -->
   <string name="status_bar_brightness_control_title">Controllo luminosità</string>
   <string name="status_bar_brightness_control_summary">Regola la luminosità scorrendo il dito sulla barra di stato</string>
@@ -284,6 +287,7 @@
   <string name="header_weather_summary">Abilita visualizzazione intestazione pannello notifica Meteo</string>
   <string name="weather_icon_pack_title">Pack icone condizione</string>
   <string name="weather_icon_pack_note">Nota\u003a che è possibile installare nuovi pacchetti di icone da play store cercando \"icone Chronus\"</string>
+  <string name="weather_icon_pack_info_title">Pacchetto icone delle condizioni viene utilizzato nelle impostazioni rapide e nella schermata di blocco</string>
   <!-- Navigationbar settings -->
   <string name="navigationbar_title">Barra di navigazione</string>
   <!-- Enable Tablet Style navigation bar -->
@@ -479,7 +483,7 @@
   <string name="DESC_LOCATING_TIMEOUT">Questo è quanto tempo aspetteremo per cercare di ottenere una buona posizione prima di andare modalità di riposo</string>
   <string name="DESC_LOCATION_ACCURACY">La precisione massima desiderata (in metri) riteniamo che la posizione è abbastanza buona per andare a riposo. Cercheremo di ottenere questa correzione di precisione o fino a quando non scade il locating_to</string>
   <string name="DESC_MOTION_INACTIVE_TIMEOUT">Questo è quanto, dopo aver visto il movimento, che aspettiamo dopo la disattivazione da quello fino a quando non iniziamo una nuova ricerca di movimento</string>
-  <string name="DESC_IDLE_AFTER_INACTIVE_TIMEOUT">Questo è il tempo, trascorso il timeout inattivo, che aspettiamo in cerca di movimento significativo fino a quando non considerariamo veramente il dispositivo inattivo</string>
+  <string name="DESC_IDLE_AFTER_INACTIVE_TIMEOUT">Questo è la durata, trascorso il periodo di inattività, aspettiamo un movimento significativo fino a quando non consideriamo veramente che il dispositivo sia inattivo</string>
   <string name="DESC_IDLE_PENDING_TIMEOUT">Questo è il momento iniziale, dopo un periodo di inattività, che ci consentirà di rientrare nello stato IDLE_PENDING permettendo al sistema di funzionare normalmente fino al nostro ritorno al minimo</string>
   <string name="DESC_MAX_IDLE_PENDING_TIMEOUT">Massima attesa di timeout di inattività (tempo trascorso in esecuzione) che saremo autorizzati a utilizzare</string>
   <string name="DESC_IDLE_PENDING_FACTOR">Fattore di scala da applicare all\'attuale attesa di timeout di inattività ogni volta che si cicla attraverso tale stato</string>
@@ -500,17 +504,17 @@
   <string name="DESC_MIN_LIGHT_MAINTENANCE_TIME">Questa è la quantità minima di tempo che rimarremo in modalità di manutenzione dopo una modalità doze leggera</string>
   <string name="DESC_MIN_DEEP_MAINTENANCE_TIME">Questa è la quantità minima di tempo che rimarremo in modalità di manutenzione dopo una modalità doze completa</string>
   <string name="DESC_KEY_NOTIFICATION_WHITELIST_DURATION">Quantità di tempo che un\'app che gestisce una notifica resterà nella whitelist</string>
-  <string name="SHORT_INACTIVE_TIMEOUT">Timeout inattivo</string>
-  <string name="SHORT_SENSING_TIMEOUT">Timeout di rilevamento</string>
+  <string name="SHORT_INACTIVE_TIMEOUT">Durata inattività</string>
+  <string name="SHORT_SENSING_TIMEOUT">Tempo di rilevamento</string>
   <string name="SHORT_LOCATING_TIMEOUT">Timeout posizione corrente</string>
   <string name="SHORT_LOCATION_ACCURACY">Precisione della posizione</string>
-  <string name="SHORT_MOTION_INACTIVE_TIMEOUT">Timeout movimento inattivo</string>
-  <string name="SHORT_IDLE_AFTER_INACTIVE_TIMEOUT">Disattivazione dopo timeout inattivo</string>
+  <string name="SHORT_MOTION_INACTIVE_TIMEOUT">Tempo movimento inattività</string>
+  <string name="SHORT_IDLE_AFTER_INACTIVE_TIMEOUT">Disattivazione dopo il periodo di inattività</string>
   <string name="SHORT_IDLE_PENDING_TIMEOUT">In attesa di timeout di inattività</string>
   <string name="SHORT_MAX_IDLE_PENDING_TIMEOUT">Attesa massima timeout di inattività</string>
   <string name="SHORT_IDLE_PENDING_FACTOR">In attesa di timeout di inattività</string>
   <string name="SHORT_IDLE_TIMEOUT">Timeout di inattività</string>
-  <string name="SHORT_MAX_IDLE_TIMEOUT">Timeout di inattività max</string>
+  <string name="SHORT_MAX_IDLE_TIMEOUT">Tempo di inattività max</string>
   <string name="SHORT_IDLE_FACTOR">Fattore di inattività</string>
   <string name="SHORT_MIN_TIME_TO_ALARM">Tempo min di allarme</string>
   <string name="SHORT_MAX_TEMP_APP_WHITELIST_DURATION">Max temp app durata whitelist</string>
@@ -610,11 +614,23 @@
   <string name="event_service_settings_title">Eventi</string>
   <string name="category_media_player_title">Lettore multimediale</string>
   <string name="bt_a2dp_connect_app_list_title">Connessione Bluetooth A2DP</string>
+  <string name="headset_connect_app_list_title">Auricolare con cavo collegato</string>
   <string name="event_service_enabled_title">Attiva l\'evento</string>
   <string name="event_service_running">Il servizio è in esecuzione</string>
   <string name="event_service_stopped">Il servizio non è in esecuzione</string>
+  <string name="category_media_player_info_title">Seleziona app</string>
+  <string name="media_player_autostart_title">Invia la riproduzione multimediale dopo l\'avvio</string>
+  <string name="media_player_music_active_title">Non avviare la riproduzione</string>
+  <string name="autorun_single_app_title">Esegui automaticamente una singola app</string>
+  <string name="autorun_single_app_summary">Mostra la finestra di selezione app</string>
+  <string name="bt_a2dp_connect_app_list_summary">Risulto elencato quando viene attivato un evento di A2DP, ad esempio la connessione di un auricolare Bluetooth</string>
+  <string name="headset_connect_app_list_summary">Risulto elencato quando è collegato un auricolare con cavo</string>
   <string name="app_chooser_left">Sinistra</string>
   <string name="app_chooser_right">Destra</string>
+  <string name="app_chooser_timeout_title">Durata finestra di dialogo scelta app</string>
+  <string name="app_chooser_position_title">Posizione di finestra di dialogo scelta app</string>
+  <string name="wired_events_threshold_title">Soglia per gli eventi delle cuffie via cavo</string>
+  <string name="wired_events_threshold_summary">Ignora gli eventi dell\'auricolare se sono entro il tempo limite</string>
   <!-- Quick Pulldown-->
   <string name="quick_pulldown_title">Menù a discesa rapida</string>
   <string name="quick_pulldown_summary">Il bordo a %1$s della barra di stato mostra le impostazioni rapide</string>
@@ -634,6 +650,7 @@
   <string name="expanded_desktop_state">Modalità estesa</string>
   <string name="expanded_enabled_for_all">Abilitato per tutto</string>
   <string name="expanded_user_configurable">Configurabile dall\'utente</string>
+  <string name="show_only_launcher_menu">Solo avvio applicazioni</string>
   <string name="show_all_apps_menu">Tutte le app</string>
   <!-- Brightness control -->
   <string name="status_bar_toggle_brightness">Controllo luminosità</string>
@@ -659,8 +676,34 @@
   <string name="hide_lockscreen_icon_title">Nascondi l\'icona di blocco schermo</string>
   <string name="hide_lockscreen_icon_summary">Modifica la visibilità dell\'icona di blocco schermo</string>
   <string name="lockscreen_weather_title">Visualizza le informazioni meteo</string>
+  <string name="lockscreen_weather_summary">Visualizza la temperatura e le condizioni meteorologiche attuali</string>
+  <string name="lockscreen_items_aod_info_title">Questa configurazione di visibilità si applica anche al display ambient</string>
   <string name="system_proxi_check_enabled_title">Controllo di prossimità</string>
+  <string name="system_proxi_check_enabled_summary">Controlla il sensore di prossimità prima di gestire i pulsanti di accensione e gli eventi di attivazione del pulsante volume</string>
+  <string name="aspect_ratio_apps_enabled_title">Abilitare il ridimensionamento</string>
+  <string name="aspect_ratio_apps_enabled_summary">Consenti alle applicazioni legacy di utilizzare lo schermo intero</string>
+  <string name="aspect_ratio_apps_list_title">Permetti di utilizzare il ridimensionamento delle app</string>
+  <string name="aspect_ratio_category_title">Ridimensionamento delle app legacy</string>
   <string name="aspect_ratio_apps_info">L\'applicazione dev\'essere riavviata dopo i cambiamenti</string>
   <string name="navigation_bar_menu_arrow_keys_title">Tasti direzionali durante la digitazione</string>
   <string name="navigation_bar_menu_arrow_keys_summary">Visualizza i cursori a destra e sinistra durante la digitazione</string>
+  <string name="lockscreen_clock_style_title">Stile dell\'orologio nella schermata di blocco</string>
+  <string name="clock_style_digital">Digitale</string>
+  <string name="clock_style_analog">Analogico</string>
+  <string name="clock_style_binary">Binario</string>
+  <string name="omni_clock_settings_title">Orologio analogico</string>
+  <string name="omni_clock_settings_summary">Impostazioni di stile e colore</string>
+  <string name="omni_clock_24h_mode_title">Modalità 24h</string>
+  <string name="omni_clock_show_ticks_title">Mostra i segni delle ore</string>
+  <string name="omni_clock_show_numbers_title">Mostra i numeri delle ore</string>
+  <string name="omni_clock_bg_color_title">Colore di sfondo</string>
+  <string name="omni_clock_border_color_title">Colore del bordo</string>
+  <string name="omni_clock_hour_color_title">Colore delle ore</string>
+  <string name="omni_clock_minute_color_title">Colore dei minuti</string>
+  <string name="omni_clock_text_color_title">Colore del testo</string>
+  <string name="omni_clock_accent_color_title">Colore secondario</string>
+  <string name="lockscreen_digital_clock_two_lines_title">Stile due linee</string>
+  <string name="lockscreen_digital_clock_bold_hour_title">Stile ore in grassetto</string>
+  <string name="digital_clock_settings_title">Orologio digitale</string>
+  <string name="digital_clock_settings_summary">Impostazioni stile</string>
 </resources>

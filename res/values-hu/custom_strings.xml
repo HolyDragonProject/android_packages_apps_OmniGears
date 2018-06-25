@@ -23,6 +23,7 @@
   <string name="profiles_add">Hozzáadás...</string>
   <string name="profile_choose_app">Válasszon alkalmazást</string>
   <string name="reset">Visszaállítás</string>
+  <string name="kbs">kB/s</string>
   <!-- Hardware keys -->
   <string name="button_keys_title">Hardveres gombok</string>
   <string name="keys_bindings_title">Gomb műveletek</string>
@@ -264,6 +265,8 @@
   <string name="network_traffic_autohide_threshold">Tétlenségi küszöb</string>
   <string name="network_traffic_enable_title">Engedélyezés</string>
   <!-- captive portal - disable connectivity check -->
+  <string name="captive_portal_ignore_mode_title">Beléptető-oldal engedélyezése</string>
+  <string name="captive_portal_ignore_mode_summary">Kapcsolat-ellenőrzés engedélyezése a beléptető-oldal engedélyezésével</string>
   <!-- statusbar brightness -->
   <string name="status_bar_brightness_control_title">Fényerő beállítása</string>
   <string name="status_bar_brightness_control_summary">Fényerő beállítása az állapotsoron való csúsztatással</string>
@@ -687,4 +690,23 @@
   <string name="aspect_ratio_apps_info">A változtatások után újra kell indítani az alkalmazásokat</string>
   <string name="navigation_bar_menu_arrow_keys_title">Nyílbillentyűk megjelenítése gépelés közben</string>
   <string name="navigation_bar_menu_arrow_keys_summary">Gépelés közben a bal és a jobb kurzorgomb megjelenítése</string>
+  <string name="lockscreen_clock_style_title">A Zárképernyő óra stílusa</string>
+  <string name="clock_style_digital">Digitális</string>
+  <string name="clock_style_analog">Analóg</string>
+  <string name="clock_style_binary">Bináris</string>
+  <string name="omni_clock_settings_title">Analóg óra</string>
+  <string name="omni_clock_settings_summary">Stílus- és színbeállítások</string>
+  <string name="omni_clock_24h_mode_title">24 órás mód</string>
+  <string name="omni_clock_show_ticks_title">Órajelek megjelenítése</string>
+  <string name="omni_clock_show_numbers_title">Óraszámjegyek megjelenítése</string>
+  <string name="omni_clock_bg_color_title">Háttérszín</string>
+  <string name="omni_clock_border_color_title">Keret színe</string>
+  <string name="omni_clock_hour_color_title">Óra színe</string>
+  <string name="omni_clock_minute_color_title">Perc színe</string>
+  <string name="omni_clock_text_color_title">Szöveg színe</string>
+  <string name="omni_clock_accent_color_title">Másodlagos szín</string>
+  <string name="lockscreen_digital_clock_two_lines_title">Kétsoros stílus</string>
+  <string name="lockscreen_digital_clock_bold_hour_title">Vastag óraszámjegy stílus</string>
+  <string name="digital_clock_settings_title">Digitális óra</string>
+  <string name="digital_clock_settings_summary">Stílusbeállítások</string>
 </resources>

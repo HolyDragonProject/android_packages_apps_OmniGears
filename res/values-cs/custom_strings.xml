@@ -23,6 +23,7 @@
   <string name="profiles_add">Přidat...</string>
   <string name="profile_choose_app">Vybrat aplikaci</string>
   <string name="reset">Resetovat</string>
+  <string name="kbs">kB/s</string>
   <!-- Hardware keys -->
   <string name="button_keys_title">Hardwarová tlačítka</string>
   <string name="keys_bindings_title">Akce hardwarových tlačítek</string>
@@ -264,6 +265,8 @@
   <string name="network_traffic_autohide_threshold">Práh nečinnosti</string>
   <string name="network_traffic_enable_title">Povolit</string>
   <!-- captive portal - disable connectivity check -->
+  <string name="captive_portal_ignore_mode_title">Povolit zadání omezení</string>
+  <string name="captive_portal_ignore_mode_summary">Povolit kontrolu připojení povolením položky omezení</string>
   <!-- statusbar brightness -->
   <string name="status_bar_brightness_control_title">Ovládání jasu</string>
   <string name="status_bar_brightness_control_summary">Nastavit jas posouváním po stavovém řádku</string>
@@ -687,4 +690,23 @@
   <string name="aspect_ratio_apps_info">Po provedených změnách je nutné aplikaci restartovat</string>
   <string name="navigation_bar_menu_arrow_keys_title">Klávesy se šipkami při psaní</string>
   <string name="navigation_bar_menu_arrow_keys_summary">Zobrazit tlačítka pro levý a pravý kurzor při psaní</string>
+  <string name="lockscreen_clock_style_title">Styl hodin na uzamčené obrazovce</string>
+  <string name="clock_style_digital">Digitální</string>
+  <string name="clock_style_analog">Analogové</string>
+  <string name="clock_style_binary">Binární</string>
+  <string name="omni_clock_settings_title">Analogové hodiny</string>
+  <string name="omni_clock_settings_summary">Nastavení stylu a barvy</string>
+  <string name="omni_clock_24h_mode_title">24h režim</string>
+  <string name="omni_clock_show_ticks_title">Zobrazit značky hodin</string>
+  <string name="omni_clock_show_numbers_title">Zobrazit čísla hodin</string>
+  <string name="omni_clock_bg_color_title">Barva pozadí</string>
+  <string name="omni_clock_border_color_title">Barva ohraničení</string>
+  <string name="omni_clock_hour_color_title">Barva hodin</string>
+  <string name="omni_clock_minute_color_title">Barva minut</string>
+  <string name="omni_clock_text_color_title">Barva textu</string>
+  <string name="omni_clock_accent_color_title">Barva zvýraznění</string>
+  <string name="lockscreen_digital_clock_two_lines_title">Styl dvou řádků</string>
+  <string name="lockscreen_digital_clock_bold_hour_title">Styl tučných hodin</string>
+  <string name="digital_clock_settings_title">Digitální hodiny</string>
+  <string name="digital_clock_settings_summary">Nastavení stylu</string>
 </resources>

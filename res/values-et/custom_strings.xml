@@ -23,6 +23,7 @@
   <string name="profiles_add">Lisa...</string>
   <string name="profile_choose_app">Vali rakendus</string>
   <string name="reset">Lähtesta</string>
+  <string name="kbs">kB/s</string>
   <!-- Hardware keys -->
   <string name="button_keys_title">Nupud</string>
   <string name="keys_bindings_title">Nupu tegevused</string>
@@ -264,6 +265,8 @@
   <string name="network_traffic_autohide_threshold">Ebaaktiivsuse piirmäär</string>
   <string name="network_traffic_enable_title">Luba</string>
   <!-- captive portal - disable connectivity check -->
+  <string name="captive_portal_ignore_mode_title">Luba pääsuleht</string>
+  <string name="captive_portal_ignore_mode_summary">Luba ühenduvuse kontroll, lubades pääsulehe</string>
   <!-- statusbar brightness -->
   <string name="status_bar_brightness_control_title">Heleduse reguleerimine</string>
   <string name="status_bar_brightness_control_summary">Reguleeri heledust, libistades mööda ülariba</string>
@@ -679,4 +682,23 @@
   <string name="aspect_ratio_apps_info">Rakendused tuleb peale muutusi taaskäivitada</string>
   <string name="navigation_bar_menu_arrow_keys_title">Nooleklahvid kirjutamise ajal</string>
   <string name="navigation_bar_menu_arrow_keys_summary">Kuva vasakut ja paremat kursorinuppu kirjutamise ajal</string>
+  <string name="lockscreen_clock_style_title">Lukukuva kella stiil</string>
+  <string name="clock_style_digital">Digitaalne</string>
+  <string name="clock_style_analog">Analoog</string>
+  <string name="clock_style_binary">Binaarne</string>
+  <string name="omni_clock_settings_title">Analoogkell</string>
+  <string name="omni_clock_settings_summary">Stiili ja värvi seaded</string>
+  <string name="omni_clock_24h_mode_title">24h-režiim</string>
+  <string name="omni_clock_show_ticks_title">Kuva tunnitähiseid</string>
+  <string name="omni_clock_show_numbers_title">Kuva tunninumbreid</string>
+  <string name="omni_clock_bg_color_title">Taustavärv</string>
+  <string name="omni_clock_border_color_title">Äärevärv</string>
+  <string name="omni_clock_hour_color_title">Tunnivärv</string>
+  <string name="omni_clock_minute_color_title">Minutivärv</string>
+  <string name="omni_clock_text_color_title">Tekstivärv</string>
+  <string name="omni_clock_accent_color_title">Rõhuvärv</string>
+  <string name="lockscreen_digital_clock_two_lines_title">Kaherealine stiil</string>
+  <string name="lockscreen_digital_clock_bold_hour_title">Rasvaselt kirjutatud tunnid</string>
+  <string name="digital_clock_settings_title">Digitaalkell</string>
+  <string name="digital_clock_settings_summary">Stiili seaded</string>
 </resources>
